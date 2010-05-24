@@ -9,4 +9,4 @@ I wanted something slimmer than Smoke and this is what I hacked together.
 
 ## Give me the mirror!
 
-[Slim.growlStyle](http://cloud.github.com/downloads/jcf/Slim.growlStyle/slim_shot.png)
+![Slim.growlStyle](http://cloud.github.com/downloads/jcf/Slim.growlStyle/slim_shot.png)
