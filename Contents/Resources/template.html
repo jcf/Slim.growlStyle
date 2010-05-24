@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Slim</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <base href="%baseurl%">
+        <style type="text/css">
+            html {
+                height: 100%;
+            }
+            body {
+                position: relative;
+            }
+            html, body {
+                padding: 0;
+                margin: 0;
+                max-width: 300px;
+            }
+            #background {
+                position: absolute;
+                background-color: #222;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+                opacity: %opacity%;
+                min-height: 48px;
+                -webkit-border-radius: 5px;
+            }
+            #icon {
+                position: absolute;
+                height: 32px;
+                width: 32px;
+                left: 10px;
+                top: 8px;
+            }
+            #icon img {
+                width: 32px;
+                height: 32px;
+            }
+            #title {
+                padding-left: 50px;
+                padding-top: 8px;
+                padding-right: 8px;
+                font: bold 14px 'Helvetica Neue', Helvetica, sans-serif;
+                letter-spacing: -0.05em
+            }
+            #text {
+                padding-left: 50px;
+                padding-top: 4px;
+                padding-bottom: 8px;
+                padding-right: 8px;
+                font: 11px 'Lucida Grande';
+            }
+            #title, #text {
+                text-shadow: 0.1em 0.1em 0.3em #000;
+                color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="%priority%">
+            <div id="background"></div>
+            <div id="icon">
+                <img src="growlimage://%image%" alt="icon">
+            </div>
+            <div id="title">%title%</div>
+            <div id="text">%text%</div>
+        </div>
+    </body>
+</html>
