@@ -11,4 +11,4 @@ I wanted something slimmer than Smoke and this is what I hacked together.
 
 With 40% transparency you'll get something like…
 
-![Slim.growlStyle](http://cloud.github.com/downloads/jcf/Slim.growlStyle/slim-shot-v2.png)
+![Slim.growlStyle](https://github.com/downloads/jcf/Slim.growlStyle/slim-shot-v2.png)
